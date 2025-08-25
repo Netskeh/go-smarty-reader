@@ -21,11 +21,11 @@ import (
     "bytes"
     "testing"
 
-    "github.com/NEXXTLAB/go-smarty-reader/smarty"
+    "github.com/Netskeh/go-smarty-reader/smarty"
 )
 
-// The following key and telegram are specific for the testing device at NEXXTLAB and are given here
-// for testing the decryption function.
+// The following key and telegram are specific for the testing device at NEXXTLAB S.A.
+// They are used here for testing the decryption function.
 // You will NOT be able to:
 //          * use the key on your device / telegrams,
 //          * decrypt the present telegram with your key

@@ -5,9 +5,6 @@ Thank you for taking interest in this project. Enhancements, fixes and suggestio
 ## Project description
 
 Go Smarty Reader aims to facilitate access to the data provided by the Luxembourgian Smart meter. 
-To read more about the project and see additional hardware development visit our blog post.  
-
-* https://www.nexxtlab.lu/smarty-dongle/
 
 ## Contributing Code
 
@@ -20,11 +17,10 @@ Git commit messages should follow the style described here
 ## Contact
 
 The easiest way to contact us is via GitHub. 
-As alternative for those without account please send us an email at: smarty@nexxtlab.lu
 
 ## Search for bugs
 
 This project uses GitHub issues to track ongoing development and issues.
 
-* https://github.com/NEXXTLAB/go-smarty-reader/issues
+* https://github.com/Netskeh/go-smarty-reader/issues
 

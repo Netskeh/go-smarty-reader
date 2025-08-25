@@ -20,7 +20,7 @@ package smarty_test
 import (
     "testing"
 
-    "github.com/NEXXTLAB/go-smarty-reader/smarty"
+    "github.com/Netskeh/go-smarty-reader/smarty"
 )
 
 // Test if the decryption is possible with the provided key and pre-recorded telegram (found in Smarty_test.go)

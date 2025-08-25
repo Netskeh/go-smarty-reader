@@ -22,7 +22,7 @@
 package main
 
 import (
-	"github.com/NEXXTLAB/go-smarty-reader/cmd/util"
+	"github.com/Netskeh/go-smarty-reader/cmd/util"
 )
 
 func main() {
@@ -34,7 +34,7 @@ func main() {
 	// Functions defined in cmd/util/CommonMqttSetup.go
 	client := util.MqttSetup(util.GetHostname(), flags.Mqtt)
 
-	// Publish "Hello" to the ""nexxtlab/dev/smarty/go/<hostname>/World" topic, without unit.
+	// Publish "Hello" to the ""dev/smarty/go/<hostname>/World" topic, without unit.
 	client.Publish("World", "Hello", "", false, false)
 
 	// Close the MQTT connection

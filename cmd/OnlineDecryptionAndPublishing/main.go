@@ -27,8 +27,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/NEXXTLAB/go-smarty-reader/cmd/util"
-	"github.com/NEXXTLAB/go-smarty-reader/smarty"
+	"github.com/Netskeh/go-smarty-reader/cmd/util"
+	"github.com/Netskeh/go-smarty-reader/smarty"
 	"github.com/basvdlei/gotsmart/dsmr"
 )
 

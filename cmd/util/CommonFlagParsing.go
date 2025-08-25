@@ -45,7 +45,7 @@ func StartupFlagParsing() (flags Flag) {
 		Mqtt: MqttInfo{
 			Broker: flag.String("mqttBroker", "ssl://iot.eclipse.org:8883",
 				"MQTT Broker Address including protocol and port."),
-			TopicRoot: flag.String("mqttTopicRoot", "nexxtlab/dev/smarty/go/",
+			TopicRoot: flag.String("mqttTopicRoot", "dev/smarty/go/",
 				"MQTT Base topic, extended by extensions (such as OBIS codes) during publish."),
 			Qos: flag.Int("mqttQos", 2,
 				"MQTT Quality of service level."),

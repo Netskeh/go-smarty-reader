@@ -26,7 +26,7 @@ import (
     "math/rand"
     "os"
 
-    "github.com/NEXXTLAB/go-smarty-reader/share"
+    "github.com/Netskeh/go-smarty-reader/share"
     "github.com/eclipse/paho.mqtt.golang"
 )
 
